@@ -1,0 +1,30 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body,
+html,
+#root,
+.App {
+  height: 100%;
+  min-height: 100%; }
+
+.App {
+  display: flex;
+  flex-direction: column; }
+  .App .btn {
+    border-radius: 0; }
+
+.main-container {
+  display: flex;
+  height: 100%; }
+  .btn-primary {
+    color: #fff;
+    background-color: #15212d !important;
+    border-color: #15212d !important;
+   
+  }
+
+.main-navbar {
+  border-bottom: 1px solid #eee;
+  background-color: #fbfbfb; }
